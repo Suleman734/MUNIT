@@ -107,3 +107,4 @@ with torch.no_grad():
         # also save input images
         vutils.save_image(image.data, os.path.join(opts.output_folder, 'input.jpg'), padding=0, normalize=True)
 
+print('finished, you can find the results in outputs folder')
